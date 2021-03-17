@@ -1,7 +1,7 @@
 import gql from  'graphql-tag';
 
-export const BOOK_Library= gql`
-   Book_library {
+export const BOOK_Library= gql`{
+   
        me {
            _id
            username
@@ -16,5 +16,5 @@ export const BOOK_Library= gql`
                link
            }
        }
-   }
+    }
 `;
